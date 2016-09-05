@@ -1,0 +1,43 @@
+{
+  "name": "atom-laravel-5-semantic-ui-snippets",
+  "description": "Laravel 5.* Blade snippets based on Semantic UI for Atom",
+  "keywords": [
+    "semantic ui",
+    "ui",
+    "blade",
+    "laravel"
+  ],
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerhassan/atom-laravel-5-semantic-ui-snippets.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Hassan ZEROUAL"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "readme": "# Laravel 5.* Blade snippets based on Semantic UI 2.* for Atom. Please fork this repository and open a PR to add snippets and fix bugs.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/zerhassan/atom-laravel-5-semantic-ui-snippets/issues"
+  },
+  "homepage": "https://github.com/zerhassan/atom-laravel-5-semantic-ui-snippets#readme",
+  "_id": "laravel-5-semantic-ui-snippets@0.1.0",
+  "_shasum": "",
+  "_resolved": "",
+  "_from": "",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

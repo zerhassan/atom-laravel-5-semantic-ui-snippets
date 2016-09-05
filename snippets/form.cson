@@ -1,0 +1,153 @@
+'.blade.php':
+  'l5ui-form':
+    'prefix': 'l5ui-form'
+    'body': '''
+        <form class="ui form" method="POST" action="{{ url('$1')}}" >
+        {{ token_field()}}
+          <div class="field">
+            <label for="$2">$3</label>
+            <input type="text" name="$2" placeholder="$3">
+          </div>
+           ...
+          <button class="ui button" type="submit">Submit</button>
+        </form>
+    '''
+  'l5ui-form-text':
+    'prefix': 'l5ui-form-text'
+    'body': '''
+          <div class="field">
+            <label for="$1">$2</label>
+            <input type="text" name="$1" placeholder="$2">
+          </div>
+    '''
+  'l5ui-form-text-horizontal':
+    'prefix': 'l5ui-form-text-horizontal'
+    'body': '''
+        <div class="two fields">
+          <div class="field">
+          <label for="$1">$2</label>
+          <input type="text" name="$1" placeholder="$2">
+          </div>
+          <div class="field">
+         <label for="$3">$4</label>
+          <input type="text" name="$3" placeholder="$4">
+          </div>
+        </div>
+    '''
+  'l5ui-form-checkbox':
+    'prefix': 'l5ui-form-checkbox'
+    'body': '''
+        <div class="inline field">
+          <div class="ui checkbox">
+          <input type="checkbox" tabindex="0" class="hidden">
+          <label>Checkbox</label>
+          </div>
+        </div>
+        <-- include in your js -->
+        $('.ui.checkbox')
+        .checkbox()
+        ;
+        <-- //include -->
+    '''
+ 'l5ui-form-checkbox-slider':
+    'prefix': 'l5ui-form-checkbox-slider'
+    'body': '''
+        <div class="inline field">
+          <div class="ui slider checkbox">
+          <input type="checkbox" tabindex="0" class="hidden">
+          <label>Checkbox</label>
+          </div>
+        </div>
+        <-- include in your js -->
+        $('.ui.checkbox')
+        .checkbox()
+        ;
+        <-- //include -->
+    '''
+'l5ui-form-checkbox-toggle':
+    'prefix': 'l5ui-form-checkbox-toggle'
+    'body': '''
+        <div class="inline field">
+          <div class="ui toggle checkbox">
+          <input type="checkbox" tabindex="0" class="hidden">
+          <label>Checkbox</label>
+          </div>
+        </div>
+        <-- include in your js -->
+        $('.ui.checkbox')
+        .checkbox()
+        ;
+        <-- //include -->
+    '''
+'l5ui-form-checkbox-inline-radio':
+    'prefix': 'l5ui-form-checkbox-inline-radio'
+    'body': '''
+        <div class="inline fields">
+        <label for="$1">$2:</label>
+          <div class="field">
+          <div class="ui radio checkbox">
+          <input type="radio" name="$1" checked="" tabindex="0" class="hidden">
+          <label>$3</label>
+          </div>
+          </div>
+          <div class="field">
+          <div class="ui radio checkbox">
+          <input type="radio" name="$1" tabindex="0" class="hidden">
+          <label>$4</label>
+          </div>
+          </div>
+        </div>
+        <-- include in your js -->
+        $('.ui.checkbox')
+        .checkbox()
+        ;
+        <-- //include -->
+  '''
+
+'l5ui-form-checkbox-grouped-radio':
+    'prefix': 'l5ui-form-checkbox-grouped-radio'
+    'body': '''
+        <div class="grouped fields">
+        <label for="$1">$2:</label>
+          <div class="field">
+          <div class="ui radio checkbox">
+          <input type="radio" name="$1" checked="" tabindex="0" class="hidden">
+          <label>$3</label>
+          </div>
+          </div>
+          <div class="field">
+          <div class="ui radio checkbox">
+          <input type="radio" name="$1" tabindex="0" class="hidden">
+          <label>$4</label>
+          </div>
+          </div>
+        </div>
+        <-- include in your js -->
+        $('.ui.checkbox')
+        .checkbox()
+        ;
+        <-- //include -->
+    '''
+'l5ui-form-dropdown':
+    'prefix': 'l5ui-form-dropdown'
+    'body': '''
+          <div class="ui form">
+            <div class="field">
+                <label>$1</label>
+                <div class="ui selection dropdown">
+                    <input type="hidden" name="$2">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">$1</div>
+                    <div class="menu">
+                        <div class="item" data-value="$3">$4</div>
+                        <div class="item" data-value="$5">$6</div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        <-- include in your js -->
+              $('select.dropdown')
+                .dropdown()
+              ;
+        <-- //include -->
+    '''
