@@ -2,7 +2,7 @@
 
 
 Atom snippets for for the [Laravel](http://laravel.com/) 5.* Blade based on [Semantic UI](http://semantic-ui.com/) framework.
-\nby  [Hassan ZEROUAL](<mailto:zerhassan@yahoo.fr>)
+###### by  [Hassan ZEROUAL](<mailto:zerhassan@yahoo.fr>)
 ### GitHub
 
 1. Change directory `cd ~/.atom/packages/`
