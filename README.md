@@ -15,9 +15,8 @@ All command completions are prefixed with `lui`, typing dash-connected class nam
 
 Examples:
 
-* `l5ui-form` completes to an image tag
-* `l5ui-form-input` will complete to form tags
-
+* `l5ui-form` completes to an form with token
+* `l5ui-form-input` will complete to form input
 
 
 ### Icons
