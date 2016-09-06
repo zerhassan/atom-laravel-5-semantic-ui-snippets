@@ -17,7 +17,7 @@ Examples:
 
 * `l5ui-form` completes to an form with token
 * `l5ui-form-input` will complete to form input
-
+* `l5ui-template:html5` will complete to html5 template 
 
 ### Icons
 
